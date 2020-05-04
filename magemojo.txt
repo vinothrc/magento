@@ -1,0 +1,11 @@
+Install Node, NPM, Magepack
+
+https://github.com/nvm-sh/nvm#install--update-script
+
+nvm install node
+nvm install 6.14.4
+
+npm install -g magepack
+
+vi .bashrc
+export PATH="/srv/.nvm/versions/node/v14.1.0/bin/:$PATH"
